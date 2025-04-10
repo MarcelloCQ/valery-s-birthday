@@ -141,7 +141,7 @@ header p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1024px;
   width: 90%;
   opacity: 0;
   transform: translateY(50px);
@@ -158,8 +158,8 @@ header p {
   font-weight: bold;
   color: rgba(255, 255, 255, 0.8);
   position: absolute;
-  top: 20px;
-  left: 50px;
+  top: -30px;
+  left: 90px;
   z-index: 1;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -177,9 +177,221 @@ header p {
   width: 100%;
 }
 
+.img-1991-v2 {
+  background-image: url("./assets/image-infancia-5.jpg");
+  min-width: 300px;
+  min-height: 160px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-1991 {
+  background-image: url("./assets/first-pic-v1.jpg");
+  min-width: 250px;
+  min-height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-1994 {
+  background-image: url("./assets/first-pic-v2.jpg");
+  min-width: 300px;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-1998 {
+  background-image: url("./assets/image-infancia-1.jpg");
+  min-width: 300px;
+  min-height: 340px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img-1999 {
+  background-image: url("./assets/image-infancia-2.jpg");
+  min-width: 250px;
+  min-height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img-2000 {
+  background-image: url("./assets/image-infancia-3.jpg");
+  min-width: 300px;
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img-2002 {
+  background-image: url("./assets/image-infancia-4.jpg");
+  min-width: 300px;
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-2016 {
+  background-image: url("./assets/fourth-pic.jpg");
+  min-width: 250px;
+  min-height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-2018 {
+  background-image: url("./assets/fiveth-pic.jpg");
+  min-width: 250px;
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-2022 {
+  background-image: url("./assets/sixth-pic.jpg");
+  min-width: 250px;
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-2023-v1 {
+  background-image: url("./assets/seventh-pic.jpg");
+  min-width: 250px;
+  min-height: 270px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-2023-v2 {
+  background-image: url("./assets/eigth-pic-v2.jpg");
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 992px) {
+  .img-1991-v2 {
+    background-image: url("./assets/image-infancia-5.jpg");
+    min-width: 250px;
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-1991 {
+    background-image: url("./assets/first-pic-v1.jpg");
+    min-width: 400px;
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-1994 {
+    background-image: url("./assets/first-pic-v2.jpg");
+    min-width: 450px;
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-1998 {
+    background-image: url("./assets/image-infancia-1.jpg");
+    min-width: 400px;
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .img-1999 {
+    background-image: url("./assets/image-infancia-2.jpg");
+    min-width: 350px;
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .img-2000 {
+    background-image: url("./assets/image-infancia-3.jpg");
+    min-width: 350px;
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .img-2002 {
+    background-image: url("./assets/image-infancia-4.jpg");
+    min-width: 450px;
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-2016 {
+    background-image: url("./assets/fourth-pic.jpg");
+    min-width: 500px;
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-2018 {
+    background-image: url("./assets/fiveth-pic.jpg");
+    min-width: 500px;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-2022 {
+    background-image: url("./assets/sixth-pic.jpg");
+    min-width: 250px;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-2023-v1 {
+    background-image: url("./assets/seventh-pic.jpg");
+    min-width: 250px;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-2023-v2 {
+    background-image: url("./assets/eigth-pic-v2.jpg");
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
 .image-placeholder {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background-color: var(--pink-medium);
   border-radius: 10px;
   display: flex;
@@ -346,7 +558,7 @@ footer {
 
   .year {
     font-size: 3rem;
-    top: 10px;
+    top: 0;
     left: 20px;
   }
 
